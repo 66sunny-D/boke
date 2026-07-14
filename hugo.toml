@@ -1,0 +1,14 @@
+baseURL = 'https://66sunny-d.github.io/boke/'
+languageCode = 'zh-cn'
+title = '66sunny-D 的博客'
+theme = 'ananke'
+
+[params]
+  description = '个人技术博客'
+
+[frontmatter]
+  date = ['date', 'publishDate', 'lastmod']
+  lastmod = [':git', 'lastmod', 'date']
+
+[markup.goldmark.renderer]
+  unsafe = true
